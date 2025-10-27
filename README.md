@@ -18,7 +18,6 @@ It supports both front-door (APB bus) and backdoor (file I/O) access to memory c
 | Memory Depth | 128 bytes |
 | Bus Interface | APB (AMBA 3 compliant structure) |
 | File Operations | `$readmemh` for load, `$writememh` for dump |
-| Simulation Tool | Icarus Verilog (iverilog + GTKWave) |
 
 ---
 
