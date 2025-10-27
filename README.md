@@ -62,7 +62,5 @@ It supports both front-door (APB bus) and backdoor (file I/O) access to memory c
 ### Fetch Phase
 - Dumps current memory contents into `image_o.hex` using `$writememh`
 
----
 
-## 🧰 File Structure
 
