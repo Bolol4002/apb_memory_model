@@ -1,0 +1,118 @@
+$date
+	Mon Oct 27 09:29:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_apb_memory $end
+$var wire 1 ! pslverr $end
+$var wire 1 " pready $end
+$var wire 8 # prdata [7:0] $end
+$var reg 1 $ fetch $end
+$var reg 1 % load $end
+$var reg 8 & paddr [7:0] $end
+$var reg 1 ' pclk $end
+$var reg 1 ( penable $end
+$var reg 1 ) prst $end
+$var reg 1 * psel $end
+$var reg 8 + pwdata [7:0] $end
+$var reg 1 , pwrite $end
+$scope module dut $end
+$var wire 1 $ fetch $end
+$var wire 1 % load $end
+$var wire 8 - paddr [7:0] $end
+$var wire 1 ' pclk $end
+$var wire 1 ( penable $end
+$var wire 1 ) prst $end
+$var wire 1 * psel $end
+$var wire 8 . pwdata [7:0] $end
+$var wire 1 , pwrite $end
+$var reg 8 / prdata [7:0] $end
+$var reg 1 " pready $end
+$var reg 1 ! pslverr $end
+$var integer 32 0 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000000 0
+b0 /
+b0 .
+b0 -
+0,
+b0 +
+0*
+1)
+0(
+0'
+b0 &
+0%
+0$
+b0 #
+0"
+0!
+$end
+#5000
+b10000000 0
+1'
+#10000
+0'
+1%
+0)
+#15000
+1'
+#20000
+0'
+b10100101 +
+b10100101 .
+b101 &
+b101 -
+1,
+1(
+1*
+0%
+#25000
+1"
+1'
+#30000
+0'
+0,
+#35000
+b10100101 #
+b10100101 /
+1'
+#40000
+0'
+1$
+#45000
+1'
+#50000
+0'
+0$
+#55000
+1'
+#60000
+0'
+#65000
+1'
+#70000
+0'
+#75000
+1'
+#80000
+0'
+#85000
+1'
+#90000
+0'
+#95000
+1'
+#100000
+0'
